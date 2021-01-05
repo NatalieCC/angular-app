@@ -1,0 +1,27 @@
+.logo_part {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.logo-text {	
+	display: flex;
+	flex-direction: column;
+}
+
+.app-logo {
+	height: 50px;
+	padding-right: 5px;
+}
+
+.app-logo-text-buttom {
+	font-size: small;
+}
+
+.app-logo-text {
+	font-size: larger;
+}
+
+.toolbar_row {
+	justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+<div style="margin: 10px 50px">
+	<h3>Requirements:</h3>
+	<div style="margin: 5px">	
+		1. Modify <b>app-routing.module.ts</b>, set path 'table' to component TableComponent. When user visit <b>localhost:4200/table</b>, the TableComponent should be shown on the page through "router-outlet". Then, please visit <b>localhost:4200/table</b> to continue the assessment. (In case you wondering why there is no table showing below, please note this is a part of the assessment. Please make sure you complete requirement 1)
+	</div>
+	<div style="margin: 5px">
+		2. Modify <b>table.component.html</b> and <b>table.component.ts</b> to show the data TRANSACTION_DATA.data on <b>table.component.html</b>(Tip: use TRANSACTION_DATA.data to initialize the data source).
+	</div>
+	<div style="margin: 5px">
+		3. Use ExportService to export the data metioned in last requirement. (Tip: ExportService has been imported, you just need to modify <b>table.component.ts</b>)
+	</div>
+	<div style="margin: 5px">
+		4. Add Validators for FormGroup dataForm (You just need to modify <b>table.component.ts</b>, Add 'required' validator for 'name' and 'email'). Once added successfully, user will be required to enter valid inputs in order to update the values. In case either of the input is missing, user will get an error message instead.
+	</div>
+</div>
